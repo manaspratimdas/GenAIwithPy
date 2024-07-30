@@ -1,0 +1,10 @@
+Pipfile.txt
+python-3.11.9-amd64.exe
+emb/chroma.sqlite3
+emb/a7e04264-b82a-4731-89f9-bb55c2e7268d/data_level0.bin
+emb/a7e04264-b82a-4731-89f9-bb55c2e7268d/header.bin
+emb/a7e04264-b82a-4731-89f9-bb55c2e7268d/length.bin
+emb/a7e04264-b82a-4731-89f9-bb55c2e7268d/link_lists.bin
+Pipfile.lock
+Pipfile
+.env
