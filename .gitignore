@@ -8,3 +8,9 @@ emb/a7e04264-b82a-4731-89f9-bb55c2e7268d/link_lists.bin
 Pipfile.lock
 Pipfile
 .env
+myresume.pdf
+my-rag/chroma.sqlite3
+my-rag/e48f5804-58fe-4f39-be10-34bf073a0ad4/data_level0.bin
+my-rag/e48f5804-58fe-4f39-be10-34bf073a0ad4/header.bin
+my-rag/e48f5804-58fe-4f39-be10-34bf073a0ad4/length.bin
+my-rag/e48f5804-58fe-4f39-be10-34bf073a0ad4/link_lists.bin
