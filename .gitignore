@@ -14,3 +14,10 @@ my-rag/e48f5804-58fe-4f39-be10-34bf073a0ad4/data_level0.bin
 my-rag/e48f5804-58fe-4f39-be10-34bf073a0ad4/header.bin
 my-rag/e48f5804-58fe-4f39-be10-34bf073a0ad4/length.bin
 my-rag/e48f5804-58fe-4f39-be10-34bf073a0ad4/link_lists.bin
+db-qa-excel/chroma.sqlite3
+db-qa-youtube/ffe23e98-eee7-4802-90fb-69bec4842947/data_level0.bin
+db-qa-web-scrapper/chroma.sqlite3
+db-qa-youtube/chroma.sqlite3
+db-qa-youtube/ffe23e98-eee7-4802-90fb-69bec4842947/header.bin
+db-qa-youtube/ffe23e98-eee7-4802-90fb-69bec4842947/length.bin
+db-qa-youtube/ffe23e98-eee7-4802-90fb-69bec4842947/link_lists.bin
