@@ -16,35 +16,17 @@ text_splitter=CharacterTextSplitter(
     chunk_overlap=0
 )
 
-# loader=TextLoader("facts.txt")
-loader=TextLoader("dynatrace.txt")
+
+loader=TextLoader("Questions_and_Results.txt")
 docs=loader.load_and_split(
     text_splitter=text_splitter
 )
 
-# db=Chroma.from_documents(
-#     docs,
-#     embedding=embeddings,
-#     persist_directory="emb-1"
-
-# )
 
 db=Chroma.from_documents(
     docs,
     embedding=embeddings,
-    persist_directory="dynatrace"
+    persist_directory="db-explorer"
 
 )
 
-# results=db.similarity_search_with_score("what is interesting fact about english")
-
-# for result in results:
-#     print("\n")
-#     print(result[1])
-#     print(result[0].page_content)
-
-
-
-# for doc in docs:
-#     print(doc.page_content)
-#     print("\n")

@@ -41,8 +41,17 @@ st.title("GenAI intro")
 language = st.text_input(" Enter the language")
 task=  st.text_input("Summary of the task that code snippet should do")
 
+template="""
+As a Java developer, I require assistance in setting controller, service and repository layer for
+ the spring boot webflux application created in the previos step.
+  I am only looking for thr CURD procesing i the controller. 
+  Include the maven plugin in the pom ensure that this project is setup for the spring reactive. 
+  would appreciate a detailed, step-by-step guide to complete this task.
+"""
+
 code_prompt=PromptTemplate(
-    template="write a very short {language} function that will {task}. Display the result with proper formatting ",
+    # template="write a very short {language} function that will {task}. Display the result with proper formatting ",
+    template=template,
     input_variables=["language", "task"]
 )
 
