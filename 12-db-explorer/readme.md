@@ -1,5 +1,7 @@
 # AI-Driven Data Transformation
 
+![alt text](image.png)
+
 ## AI-Powered Innovation for Organizational Excellence
 
 The proposed system leverages the power of Artificial Intelligence (AI) to propel organizations into a futuristic realm of streamlined operations and enhanced decision-making.
